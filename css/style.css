@@ -1,0 +1,105 @@
+body {
+    font-family: "Roboto";
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+/* Set background color */
+.header,
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.quote {
+    width: 100vw;
+    background-color: #E5E7EB;
+}
+
+.header-container,
+.content,
+.quote-container,
+.signup {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.header-main {
+    display: flex;
+    align-items: stretch;
+    gap: 24px;
+    margin: 60px 0;
+}
+
+.header-main-content {
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-main-image {
+    flex: 1 0 200px;
+    height: auto;
+}
+
+
+
+.content-items {
+    display: flex;
+}
+
+.content-items div {
+    flex-basis: 200px;
+}
+
+
+
+.signup-button {
+    flex: 0 0 auto;
+    width: fit-content;
+    padding: 2px 16px;
+}
+
+
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
