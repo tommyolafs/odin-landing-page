@@ -27,6 +27,10 @@ body {
     margin: 0 auto;
 }
 
+.header {
+    flex: 3;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -79,7 +83,7 @@ body {
     flex: 3;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     color: #1F2937;
     margin: 30px auto;
@@ -88,7 +92,7 @@ body {
 .content h2 {
     font-size: 28px;
     font-weight: 900;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .content-info {
@@ -142,6 +146,7 @@ body {
 }
 
 .signup {
+    margin: 36px auto;
     flex: 2;
     display: flex;
     align-items: center;
